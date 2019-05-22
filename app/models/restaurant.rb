@@ -1,4 +1,5 @@
-class Restaurant < ApplicationRecord
+class Restaurant <
+
   has_many :reviews, dependent: :destroy
   validates :name, presence: true
   validates :address, presence: true
