@@ -8,6 +8,6 @@
     <li><%= review.content %></li>
   <% end %>
   <hr>
- <%= link_to 'Back to list', restaurants_path %> |
- <%= link_to 'Add a review', new_restaurant_review_path(@restaurant)%>
+ <%= link_to 'Back to list', restaurants_path %> | <%= link_to 'Add a review', new_restaurant_review_path(@restaurant) %>
 </div>
+ <!-- call reviews form from here directly -->
